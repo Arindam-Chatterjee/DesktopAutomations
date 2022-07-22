@@ -1,11 +1,10 @@
-# Import the os module
+# Import Libraries
 import os
 import sys
-# imported the requests library
 import requests
 image_url = "https://www.python.org/static/community_logos/python-logo-master-v3-TM.png"
 
-#change working directory into whatever directory your Python script is located
+#Change working directory into whatever directory your Python script is located
 os.chdir(sys.path[0])
 
 # Get the current working directory
